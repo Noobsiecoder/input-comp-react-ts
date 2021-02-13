@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
     "test": "react-scripts test",
     "build:css:dev": "postcss src/styles/tailwind.css -o src/styles/build/styles.css",
     "build:css:prod": "postcss src/styles/tailwind.css -o src/styles/main.css",
